@@ -11,7 +11,7 @@ const AboutContent = () => {
             <div className='left'>
                 <h1>Who Am I?</h1>
                 <p>I'm a web developer. I create responsive and secure web applications for my clients.</p>
-                <Link to="/contact" className="btn">CONTACT</Link>
+                <Link to="/portfolio/contact" className="btn">CONTACT</Link>
             </div>
             <div className='right'>
                 <div className='img-container'>

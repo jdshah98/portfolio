@@ -21,21 +21,21 @@ const Navbar = () => {
 
 	return (
 		<div className={color ? 'header header-bg' : 'header'}>
-			<Link to="/">
+			<Link to="/portfolio/">
 				<h1>Portfolio</h1>
 			</Link>
 			<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 				<li>
-					<Link to="/">Home</Link>
+					<Link to="/portfolio/">Home</Link>
 				</li>
 				<li>
-					<Link to="/project">Project</Link>
+					<Link to="/portfolio/project">Project</Link>
 				</li>
 				<li>
-					<Link to="/about">About</Link>
+					<Link to="/portfolio/about">About</Link>
 				</li>
 				<li>
-					<Link to="/contact">Contact</Link>
+					<Link to="/portfolio/contact">Contact</Link>
 				</li>
 			</ul>
 			<div className='hamburger' onClick={handleClick}>
