@@ -1,0 +1,5 @@
+ai :-
+advertisements:- ad1,ad2..
+movie poster:- mp1
+standee:- st1
+vector image:- vi1

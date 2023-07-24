@@ -1,49 +1,60 @@
-import project1 from '../assets/project1.png'
-import project2 from '../assets/project2.jpg'
-import project3 from '../assets/project3.jpg'
+import moviePoster from '../assets/mp1.png';
+import vectorImage from '../assets/vi1.png';
+import standeeImage from '../assets/sd1.png';
+import adImage1 from '../assets/ad1.png';
+import adImage2 from '../assets/ad2.png';
+import adImage3 from '../assets/ad3.png';
+import adImage4 from '../assets/ad4.png';
 
 const ProjectCardData = [
     {
-        imgsrc: project1,
-        title: 'NodeMCU Controller API',
-        text: 'Android Application sends signal to NodeMCU which is used to control a robot.',
-        view: '#',
-        source: 'https://github.com/jdshah98/nodemcu-client-signal'
-    },
-    {
-        imgsrc: project2,
-        title: 'ATM Simulator',
-        text: 'GUI Application to simulate ATM System based on Java Swing API',
-        view: '#',
-        source: 'https://github.com/jdshah98/ATM-SIMULATOR-SYSTEM-SWING'
-    },
-    {
-        imgsrc: project3,
-        title: 'Food Savior',
-        text: 'Web Application for food donation',
+        imgsrc: moviePoster,
+        title: 'Movie Poster',
+        text: '',
         view: '',
-        source: 'https://github.com/jdshah98/Food-Savior'
+        source: ''
     },
     {
-        imgsrc: project3,
-        title: 'Image Cryptography',
-        text: 'Encrypting messages into image format securely using Image Cryptography based on Python.',
+        imgsrc: vectorImage,
+        title: 'Vector Image',
+        text: '',
         view: '',
-        source: 'https://github.com/jdshah98/IMAGE-CRYPTOGRAPHY'
+        source: ''
     },
     {
-        imgsrc: project3,
-        title: 'Insta Clone',
-        text: 'Instagram Clone web application using React JS and Node JS',
+        imgsrc: standeeImage,
+        title: 'Standee Image',
+        text: '',
         view: '',
-        source: 'https://github.com/jdshah98/insta-clone'
+        source: ''
     },
     {
-        imgsrc: project3,
-        title: 'KBC',
-        text: 'Android Application simulating KBC Game',
+        imgsrc: adImage1,
+        title: 'Advertisement Brochure',
+        text: '',
         view: '',
-        source: 'https://github.com/jdshah98/KBC'
+        source: ''
+    },
+    {
+        imgsrc: adImage2,
+        title: 'Advertisement Brochure',
+        text: '',
+        view: '',
+        source: ''
+    },
+    {
+        imgsrc: adImage3,
+        title: 'Advertisement Card',
+        text: '',
+        view: '',
+        source: ''
+    },
+    {
+        imgsrc: adImage4,
+        title: 'Advertisement Card',
+        text: '',
+        view: '',
+        source: ''
     }
 ]
 

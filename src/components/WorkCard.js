@@ -5,13 +5,12 @@ import React from 'react'
 const WorkCard = (props) => {
     return (
         <div className='project-card'>
-            <img src={props.imgsrc} alt="img" />
+            <img src={props.imgsrc} alt="img" className='project-image' />
             <h2 className='project-title'>{props.title}</h2>
             <div className='project-details'>
                 <p>{props.text}</p>
                 <div className='project-btns'>
                     <a href={props.view} className='btn' target="_blank" rel="noreferrer">VIEW</a>
-                    <a href={props.source} className='btn' target="_blank" rel="noreferrer">SOURCE</a>
                 </div>
             </div>
         </div>
